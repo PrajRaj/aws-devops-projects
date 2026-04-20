@@ -26,13 +26,13 @@ sudo systemctl enable nginx
 
 ## Monitoring Script
 
-Create a file monitor.sh and add:
+Created a file monitor.sh and added:
 
 #!/bin/bash
 
-df -h
-free -h
-nproc
+`df -h` : Displays disk space usage in human-readable format  
+`free -h` : Shows memory usage (RAM) in human-readable format  
+`nproc` : Returns the number of CPU cores available
 
 Run:
 chmod +x monitor.sh
