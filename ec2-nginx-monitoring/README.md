@@ -10,7 +10,7 @@ Deploy Nginx on AWS EC2 and monitor system performance.
 1. Launch EC2 instance
 
 2. Connect using SSH:
-ssh -i key.pem ubuntu@<public-ip>
+ssh -i key.pem ubuntu@ <public-ip>
 
 3. Install Nginx:
 sudo apt update
