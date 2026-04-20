@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#############
+#Author: Prajwal Raj
+#Title: Monitor the server performance
+############
+
+set -x #debug mode
+set -o #pipefail
+set -e #exits the script when there is an error
+
+df -h
+
+
+
+free -h
+
+
+nproc
