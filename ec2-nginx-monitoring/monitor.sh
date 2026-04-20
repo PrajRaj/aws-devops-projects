@@ -6,11 +6,8 @@
 ############
 
 set -x #debug mode
-set -o #pipefail
-set -e #exits the script when there is an error
 
 df -h
-
 
 
 free -h

@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1776655843,,"wq!"
+|2,0,1776660526,,"wq!"
+:q!
+|2,0,1776659876,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -25,50 +27,255 @@
 # Registers:
 
 # File marks:
-'0  12  4  ~/logs.txt
-|4,48,12,4,1776655843,"~/logs.txt"
-'1  10  10  ~/logs.txt
-|4,49,10,10,1776655491,"~/logs.txt"
-'2  8  17  ~/logs.txt
-|4,50,8,17,1776655131,"~/logs.txt"
-'3  8  17  ~/logs.txt
-|4,51,8,17,1776655131,"~/logs.txt"
-'4  19  4  ~/logs.txt
-|4,52,19,4,1776654712,"~/logs.txt"
-'5  16  4  ~/logs.txt
-|4,53,16,4,1776654712,"~/logs.txt"
-'6  14  4  ~/logs.txt
-|4,54,14,4,1776654712,"~/logs.txt"
-'7  12  4  ~/logs.txt
-|4,55,12,4,1776654712,"~/logs.txt"
+'0  14  0  ~/ec2-nginx-monitoring/monitor.sh
+|4,48,14,0,1776660526,"~/ec2-nginx-monitoring/monitor.sh"
+'1  17  6  ~/ec2-nginx-monitoring/monitor.sh
+|4,49,17,6,1776660478,"~/ec2-nginx-monitoring/monitor.sh"
+'2  58  0  ~/ec2-nginx-monitoring/README.md
+|4,50,58,0,1776660185,"~/ec2-nginx-monitoring/README.md"
+'3  115  0  ~/ec2-nginx-monitoring/README.md
+|4,51,115,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+'4  58  0  ~/ec2-nginx-monitoring/README.md
+|4,52,58,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+'5  178  80  ~/ec2-nginx-monitoring/README.md
+|4,53,178,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+'6  118  80  ~/ec2-nginx-monitoring/README.md
+|4,54,118,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+'7  121  80  ~/ec2-nginx-monitoring/README.md
+|4,55,121,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+'8  61  80  ~/ec2-nginx-monitoring/README.md
+|4,56,61,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+'9  12  4  ~/logs.txt
+|4,57,12,4,1776655843,"~/logs.txt"
 
 # Jumplist (newest first):
+-'  14  0  ~/ec2-nginx-monitoring/monitor.sh
+|4,39,14,0,1776660526,"~/ec2-nginx-monitoring/monitor.sh"
+-'  17  6  ~/ec2-nginx-monitoring/monitor.sh
+|4,39,17,6,1776660478,"~/ec2-nginx-monitoring/monitor.sh"
+-'  1  0  ~/ec2-nginx-monitoring/monitor.sh
+|4,39,1,0,1776660396,"~/ec2-nginx-monitoring/monitor.sh"
+-'  1  0  ~/ec2-nginx-monitoring/monitor.sh
+|4,39,1,0,1776660396,"~/ec2-nginx-monitoring/monitor.sh"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776660185,"~/ec2-nginx-monitoring/README.md"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776660185,"~/ec2-nginx-monitoring/README.md"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776660185,"~/ec2-nginx-monitoring/README.md"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776660185,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659889,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659889,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659889,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659889,"~/ec2-nginx-monitoring/README.md"
+-'  115  0  ~/ec2-nginx-monitoring/README.md
+|4,39,115,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  115  0  ~/ec2-nginx-monitoring/README.md
+|4,39,115,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  115  0  ~/ec2-nginx-monitoring/README.md
+|4,39,115,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  115  0  ~/ec2-nginx-monitoring/README.md
+|4,39,115,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  58  0  ~/ec2-nginx-monitoring/README.md
+|4,39,58,0,1776659876,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659858,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659858,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659858,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659858,"~/ec2-nginx-monitoring/README.md"
+-'  178  80  ~/ec2-nginx-monitoring/README.md
+|4,39,178,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  118  80  ~/ec2-nginx-monitoring/README.md
+|4,39,118,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  121  80  ~/ec2-nginx-monitoring/README.md
+|4,39,121,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  61  80  ~/ec2-nginx-monitoring/README.md
+|4,39,61,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  178  80  ~/ec2-nginx-monitoring/README.md
+|4,39,178,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  118  80  ~/ec2-nginx-monitoring/README.md
+|4,39,118,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  121  80  ~/ec2-nginx-monitoring/README.md
+|4,39,121,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  61  80  ~/ec2-nginx-monitoring/README.md
+|4,39,61,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  178  80  ~/ec2-nginx-monitoring/README.md
+|4,39,178,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  118  80  ~/ec2-nginx-monitoring/README.md
+|4,39,118,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  121  80  ~/ec2-nginx-monitoring/README.md
+|4,39,121,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  61  80  ~/ec2-nginx-monitoring/README.md
+|4,39,61,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  178  80  ~/ec2-nginx-monitoring/README.md
+|4,39,178,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  118  80  ~/ec2-nginx-monitoring/README.md
+|4,39,118,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  121  80  ~/ec2-nginx-monitoring/README.md
+|4,39,121,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  61  80  ~/ec2-nginx-monitoring/README.md
+|4,39,61,80,1776659840,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659821,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659821,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659821,"~/ec2-nginx-monitoring/README.md"
+-'  1  0  ~/ec2-nginx-monitoring/README.md
+|4,39,1,0,1776659821,"~/ec2-nginx-monitoring/README.md"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
+-'  12  4  ~/logs.txt
+|4,39,12,4,1776655843,"~/logs.txt"
 -'  12  4  ~/logs.txt
 |4,39,12,4,1776655843,"~/logs.txt"
 -'  10  10  ~/logs.txt
 |4,39,10,10,1776655491,"~/logs.txt"
--'  8  17  ~/logs.txt
-|4,39,8,17,1776655445,"~/logs.txt"
--'  8  17  ~/logs.txt
-|4,39,8,17,1776655131,"~/logs.txt"
--'  19  4  ~/logs.txt
-|4,39,19,4,1776655090,"~/logs.txt"
--'  14  4  ~/logs.txt
-|4,39,14,4,1776655090,"~/logs.txt"
--'  16  4  ~/logs.txt
-|4,39,16,4,1776654712,"~/logs.txt"
--'  12  4  ~/logs.txt
-|4,39,12,4,1776654712,"~/logs.txt"
--'  1  0  ~/logs.txt
-|4,39,1,0,1776654621,"~/logs.txt"
--'  1  0  ~/logs.txt
-|4,39,1,0,1776654621,"~/logs.txt"
--'  1  0  ~/logs.txt
-|4,39,1,0,1776654621,"~/logs.txt"
--'  1  0  ~/logs.txt
-|4,39,1,0,1776654280,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
+-'  10  10  ~/logs.txt
+|4,39,10,10,1776655491,"~/logs.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/ec2-nginx-monitoring/monitor.sh
+	*	1776660524	0
+	"	14	0
+	^	14	0
+	.	15	0
+	+	8	18
+	+	9	0
+	+	11	6
+	+	13	0
+	+	14	6
+	+	11	0
+	+	12	0
+	+	15	0
+
+> ~/ec2-nginx-monitoring/README.md
+	*	1776660182	0
+	"	58	0
+	^	58	0
+	.	59	0
+	+	178	80
+	+	118	80
+	+	115	0
+	+	58	14
+	+	59	0
 
 > ~/logs.txt
 	*	1776655839	0
