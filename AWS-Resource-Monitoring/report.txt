@@ -1,0 +1,23 @@
+####################################################
+============= AWS RESOURCE USAGE REPORT ===========
+Report generated on: Tue Apr 21 09:49:28 IST 2026
+###################################################
+1. S3 Buckets
+Total Count:       1
+Bucket List:
+ - mybucket775
+---------------------------------
+2. EC2 Instances
+Total Instances
+       1
+Instance Id
+i-07bbc142706b99046
+---------------------------------
+3. Lambda Functions
+       0
+---------------------------------
+4. IAM Users
+Number of IAM users
+       1
+IAM Usernames
+test-user
