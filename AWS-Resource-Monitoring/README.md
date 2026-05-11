@@ -85,3 +85,9 @@ IAM Usernames:
 - Send reports via email
 - Store reports in S3
 - Extend monitoring to more AWS services
+
+## Why I Built This
+In production support environments, manually checking resource usage across 
+multiple AWS services is repetitive and error-prone. This script was built to 
+automate that process, giving engineers a structured, scheduled snapshot of 
+what's running, what's named, and what might be costing money unnecessarily.
