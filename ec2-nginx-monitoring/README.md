@@ -67,3 +67,30 @@ terraform plan
 terraform apply -var="region=us-east-1"
 
 ```
+
+## Sample Report Output & Artifacts
+
+The pipeline automatically polls the live EC2 instance via a resilient retry loop until Nginx is ready, retrieves the generated health metrics, and archives them. 
+
+### Sample Node Health Report
+```text
+==============================
+    SERVER HEALTH REPORT      
+  Date: 2026-09-09 14:19:15
+==============================
+[1] DISK USAGE:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       6.7G  2.3G  4.4G  35% /
+[2] MEMORY USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:           908Mi       386Mi       175Mi       2.7Mi       459Mi       522Mi
+Swap:             0B          0B          0B
+[3] CPU CORES:
+2
+==============================
+        END OF REPORT         
+==============================
+
+# GitHub Actions Artifacts
+
+Following every successful workflow execution, the harvested report.txt file is automatically packaged and uploaded to GitHub Actions Artifacts (named ec2-node-health-report) with a 7-day retention window, allowing you to audit system performance before the ephemeral infrastructure is torn down.
