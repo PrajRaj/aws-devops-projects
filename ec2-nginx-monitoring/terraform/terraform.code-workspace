@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../terraform/labs/state_management"
+		}
+	],
+	"settings": {}
+}
