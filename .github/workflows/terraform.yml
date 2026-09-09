@@ -49,16 +49,21 @@ jobs:
       - name: Terraform Apply
         run: terraform apply -auto-approve
 
-      # 6. Poll Nginx until the report is generated and download it
+      # 6. Poll Nginx until report.txt is fully generated and ready
       - name: Retrieve Node Health Report
         run: |
-          # Extract EC2 Public IP from Terraform output
           EC2_IP=$(terraform output -raw public_ip)
           echo "Connecting to instance at: http://$EC2_IP"
 
-          # Allow cloud-init time to install Nginx and run monitor.sh
-          # Retries every 5s for up to 60s until Nginx serves the file
-          curl -f --retry 12 --retry-delay 5 --retry-connrefused "http://$EC2_IP/report.txt" -o report.txt
+          # Loop for up to 2 minutes (24 attempts x 5 seconds)
+          for i in {1..24}; do
+            if curl -s -f "http://$EC2_IP/report.txt" -o report.txt; then
+              echo "Successfully retrieved report!"
+              break
+            fi
+            echo "Attempt $i: Report not ready yet, retrying in 5 seconds..."
+            sleep 5
+          done
 
           echo "=== Node Health Report Output ==="
           cat report.txt
