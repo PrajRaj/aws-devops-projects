@@ -18,17 +18,17 @@ An automated Infrastructure-as-Code (IaC) and CI/CD pipeline project that provis
 aws_devops_projects/
 ├── .github/
 │   └── workflows/
-│       └── terraform.yml     # CI/CD pipeline configuration
+│       └── terraform.yml  
 └── ec2-nginx-monitoring/
     └── terraform/
         ├── modules/
         │   └── ec2_instance/
-        │       ├── main.tf       # EC2 instance & Security Group resources
-        │       ├── variables.tf  # Input variables (AMI, instance type, region)
-        │       └── outputs.tf    # Exports public IP and instance details
-        ├── main.tf               # Root Terraform configuration calling the module
-        ├── user-data.sh          # Cloud-init script: installs Nginx & health report
-        └── backend.tf            # Terraform state configuration
+        │       ├── main.tf
+        │       ├── variables.tf
+        │       └── outputs.tf
+        ├── main.tf     
+        ├── user-data.sh       
+        └── backend.tf
 ---
 
 ## How It Works
