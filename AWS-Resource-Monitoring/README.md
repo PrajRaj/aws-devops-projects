@@ -84,7 +84,7 @@ The monitoring dashboard tracks core performance metrics utilizing precise metri
 
   * Metric Tracking: Exact-match filtering targeting the aws_resource_monitor Lambda function.
   
-  * Dashboard-as-Code: The dashboard configuration is version-controlled via grafana/dashboard.json, allowing reproducible workspace deployments.
+  * Dashboard-as-Code: The dashboard configuration is version-controlled via dashboard.json, allowing reproducible workspace deployments.
   
 [View Live Grafana Monitoring Snapshot](https://mintwombat2640.grafana.net/dashboard/snapshot/UW5rjniLVp2ne56WuwyeuuFWTn791xVp)
 
