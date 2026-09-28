@@ -11,6 +11,6 @@ terraform{
         key    = "resource_monitoring/terraform.tfstate" # The path within the bucket where the state file of this project will be stored
         region = "us-east-1"
         encrypt = true
-        use_lockfile = true #For state locking and consistency checking, set to true
+        # use_lockfile = true #For state locking and consistency checking, set to true
 }
 }
